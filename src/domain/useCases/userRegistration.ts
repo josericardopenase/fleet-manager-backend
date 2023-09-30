@@ -4,8 +4,7 @@ import {EmailIsAlreadyTaken} from "../exceptions/EmailIsAlreadyTaken";
 import {UserRepository} from "../repositories/userRepository";
 
 
-export class userRegistration{
-
+export class UserRegistration{
     constructor(
         private repository : UserRepository,
         private encrypter : EncrypterAdapter
